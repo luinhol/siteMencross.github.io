@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.topbar{
+    background-color: #4f657c;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+header{
+    background-color: #a59192;
+    margin: auto;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a:hover{
+    background-color: #111111;
+}
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    text-decoration: none;
+}
+.home{
+    background-color: #d9d9d9;
+}
+.topHome{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+.topHome .twStreamer{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+}
+.topHome h1{
+    padding: 0.6rem;
+    font-size: 6rem;
+}
+.topHome .twIcon{
+    width: 2rem;
+}
+.botHome{
+    display: flex;
+    background-image: url(../assets/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5%
+}
+.botHome h1{
+    color:white;
+    font-size: 2.5rem;
+    line-height: 2;
+    text-align: right;
+}
+.homeMen{
+    width: 20rem;
+    border-radius: 0.8rem;
+}
+.bigFamily{
+    text-align: center;
+    background-color: #d9d9d9;
+}
+.topFamily{
+    padding: 4.5rem;
+    font-size: xx-large;
+}
+.familyImg{
+    width: 100%;
+}
+.images{
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+}
+.rightImage{
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 3.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rightImage h1{
+    font-size: 4.6rem;
+    text-align: left;
+}
+.leftImage{
+    display: flex;
+    background-color: #545454;
+    padding: 3.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftImage h1{
+    font-size: 4.6rem;
+    text-align: right;
+}
+.leftImg{
+    height: 25rem;
+}
+.rightImg{
+    height: 25rem;
+}
+.GRANDESLENDAS{
+    font-size: 7.8rem;
+    padding: 6rem;
+    background-color: #4f657c;
+    overflow: auto;
+}
+.lendas{
+    display: flex;
+    flex-direction: column;
+}
+.lendasL{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a59192;
+    height: 40rem;
+}
+.lendasR{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a6a6a6;
+    height: 40rem;
+}
+.lendasL h1{
+    text-align: right;
+    font-size: 7rem;
+}
+.lendasR h1{
+    text-align: left;
+    font-size: 7rem;
+}
+.lendaLeft{
+    max-height: 30rem;
+}
+.lendaRight{
+    max-height: 30rem;
+}
+.binei{
+    display: flex;
+    background-color: #a59192;
+    font-size: 90px;
+    flex-wrap: wrap;
+    gap: 0rem 6rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 70rem;
+}
+
+.binei1{
+    max-height: 25rem;
+}
+.binei2{
+    max-height: 25rem;
+}
+.oBinei{
+    font-size: 12.5rem;
+}
+.casal{
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(../assets/menNatal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.casalTxt{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+}
+.kiss{
+    float: right;
+    margin-top: 700px;
+    margin-right: 200px;
+}
